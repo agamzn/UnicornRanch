@@ -8,6 +8,6 @@ Note: Labs are evaluated programtically.
 
 Lab 1 Deliverables:
 
-Write a function in the existing class. This function will take no input parameters. The function will return a dictionary that contains the following data: the estimated property tax bill for the year; the estimated property tax bill with 1.2% appreciation/yr over the next 5 years.
+Write a function in the existing class. This function will take no input parameters. The function will return a dictionary that contains the following data: the estimated property tax bill for the year; the estimated property tax bill with 1.2% appreciation/yr over the next 5 years; the tax rate (percentage) based on a value of 1.2 Million
 
 Please submit your work as a Pull Request to this repo. Your destination branch should be your first/last initials.
