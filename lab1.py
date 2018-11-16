@@ -4,7 +4,7 @@ class UnicornRanch(object):
         self.ranch_sqft = 326700
         self.barn_sqft = 1200
 
-        sefl.watering_pond = {
+        self.watering_pond = {
             'depth':30,
             'shape':'circle',
             'radi': 681
