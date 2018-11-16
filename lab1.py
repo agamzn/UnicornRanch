@@ -25,18 +25,15 @@ class UnicornRanch(object):
         """
 
         barn_tax = self.get_barn_tax(self.barn_sqft)
-        print(barn_tax)
-
         water_tax = self.get_water_tax(int(self.watering_pond['gallons']))
-        print(water_tax)
-
         grassland_tax = self.get_grassland_tax(self.ranch_sqft - self.barn_sqft)
-        print(grassland_tax)
 
-        effective_rate = (barn_tax + water_tax + grassland_tax) / self.PROPERTY_VALUE
-        print("Effective tax rate: {rate}".format(
-            rate=effective_rate))
+        answer = {}
+        total_tax = barn_tax + water_tax + grassland_tax
+        answer['total_tax'] = total_tax
+        answer['effective_rate'] = total_tax / self.PROPERTY_VALUE
 
+        return answer
 
     def get_barn_tax(self, area: int) -> float:
         """
