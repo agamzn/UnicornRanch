@@ -12,6 +12,9 @@ Write a function in the existing class. This function will take no input paramet
 
 Lab 2 Deliverables:
 
-Using the results from Lab1, determine the dollar impact to the annual tax bill of this property if the tax rate is tripled, minus 10%. Additionally, calculate the taxable-cost-per-acre based on this ranch (using the effective rate), and calculate the additional revenue to the local government. (Pick a local county/parish, just let your instructor know what county you picked)
+Using the results from Lab1...
+- determine the dollar impact to the annual tax bill of this property if the tax rate is tripled, minus 10%.
+- calculate the taxable-cost-per-acre based on this ranch (using the effective rate).
+- calculate the additional revenue to the local government. (Hint: calculate the tax revenue for your county using the original effective rate in LAB1 first.) (Pick a local county/parish, just let your instructor know what county you picked)
 
 Submission instructions are the same for lab 1.
