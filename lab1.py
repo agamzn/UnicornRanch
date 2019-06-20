@@ -17,9 +17,9 @@ class UnicornRanch(object):
     def TaxDictionary(self):
         InitialBill = (self.ranch_sqft * self.prop_tax_rates['grassland']) + (self.barn_sqft * self.prop_tax_rates['structure']) + (self.watering_pond['acre_feet'] * self.prop_tax_rates['water_acre_foot'])
         Year2 = InitialBill + (InitialBill * .012)
-        Year3 = Year2 + (Year2 * 0.12)
-        Year4 = Year3 + (Year3 * 0.12)
-        Year5 = Year4 + (Year4 * 0.12)
+        Year3 = Year2 + (Year2 * .012)
+        Year4 = Year3 + (Year3 * .012)
+        Year5 = Year4 + (Year4 * .012)
         self.dictTax = {
             'TaxBill': int(InitialBill),
             'TaxBillYear2': int(Year2),
